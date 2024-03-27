@@ -1,0 +1,8 @@
+LesPersonnages.lst:Personnages::Francais:Personnages
+LesLocations.lst:Locations::Francais:Locations
+LesReferencesTemporelles.lst:ReferenceTemporelles::Francais:ReferenceTemporelles
+LesEvenements.lst:Evenements::Francais:Evenements
+characters.lst:Personnages::Anglais:Personnages
+evens.lst:Locations::Anglais:Evenements
+timeRef.lst:ReferenceTemporelles::Anglais:ReferenceTemporelles
+locations.lst:Locations::Anglais:Locations

@@ -1,0 +1,4 @@
+verbes_mov.lst:VerbeMovements::Francais:Verbe
+verbes_discours.lst:VerbeDiscours::Francais:Verbe
+verb_speech.lst:VerbeDiscours::Anglais:Verbe
+verbes_acts.lst:VerbeMovements::Anglais:Verbe

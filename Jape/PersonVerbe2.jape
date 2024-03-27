@@ -1,0 +1,12 @@
+Phase:	PersonVerbe
+Input:  Verbe  PersonPhrase
+Options: control = appelt
+
+Rule:Person
+(
+ {PersonPhrase contains {Verbe.majorType == "VerbeMovements"}}
+
+)
+:personverbe
+-->
+:personverbe.PersonVerbePhrase = {rule = "Person"}

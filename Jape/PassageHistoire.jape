@@ -1,0 +1,12 @@
+Phase:	passage
+Input:  ReferenceTemporelles  PersonVerbePhrase
+Options: control = appelt
+
+Rule:pass
+(
+ {PersonVerbePhrase contains {ReferenceTemporelles.majorType == "ReferenceTemporelles"}}
+
+)
+:pass
+-->
+:pass.PassageImportant = {rule = "pass"}

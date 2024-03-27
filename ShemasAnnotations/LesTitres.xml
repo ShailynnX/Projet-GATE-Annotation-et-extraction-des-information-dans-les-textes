@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="LesTitres">
+    <complexType>
+        <attribute name="kind" use="optional">
+        <simpleType>
+              <restriction base="string">
+                <enumeration value="motChiffre"/>
+                <enumeration value="chiffre"/>
+                <enumeration value="Partie"/>
+              </restriction>
+        </simpleType>
+        </attribute>
+    </complexType>
+  </element>
+</schema>

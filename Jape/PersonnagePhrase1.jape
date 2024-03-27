@@ -1,0 +1,13 @@
+Phase:	PassageHistoire
+Input: Personnages Sentence   
+Options: control = appelt
+
+
+Rule:Person
+(
+ {Sentence contains {Personnages.majorType == "Personnages"}}
+
+)
+:person
+-->
+:person.PersonPhrase = {rule = "Person"}

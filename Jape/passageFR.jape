@@ -1,0 +1,13 @@
+Phase:	PassageHistoire
+Input: Personnages  ReferenceTemporelles PersonPhrase
+Options: control = appelt
+
+
+Rule:Person
+(
+ {PersonPhrase contains {ReferenceTemporelles}}
+
+)
+:person
+-->
+:person.PassageHistoire = {rule = "Person"}
